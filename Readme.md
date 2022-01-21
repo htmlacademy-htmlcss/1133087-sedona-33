@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Диана Труусе](https://up.htmlacademy.ru/htmlcss/33/user/1133087).
-* Наставник: `Неизвестно`.
+- Студент: [Диана Труусе](https://up.htmlacademy.ru/htmlcss/33/user/1133087).
+- Наставник: [Анастасия Полозова](https://htmlacademy.ru/profile/id258631).
 
 ---
 
