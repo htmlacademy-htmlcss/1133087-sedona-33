@@ -24,6 +24,62 @@
     </header>
 
   <body>
+    <section class="hotels">
+      <h2 class="hotels-title">Гостиницы Седоны</h2>
+      <div class="hotels-nav">
+        <ul>
+          <li><a href="index.html"><img src="" alt="Иконка На главную"></a></li>
+          <li><a href="catalog.html">Гостиницы</a></li>
+        </ul>
+      </div>
+
+      <div class="hotels-form">
+        <form action="" method="post">
+          <div class="hotels-form-col">
+            <h3 class="hotels-form-title">Инфраструктура</h3>
+            <input type="radio" id="infra1">
+            <label for="infra1">Бассейн</label>
+            <input type="radio" id="infra2">
+            <label for="infra2">Парковка</label>
+            <input type="radio" id="infra3">
+            <label for="infra3">Wi-Fi</label>
+          </div>
+
+          <div class="hotels-form-col">
+            <h3 class="hotels-form-title">Тип жилья:</h3>
+            <input type="radio" id="type1">
+            <label for="type1">Гостиница</label>
+            <input type="radio" id="type2">
+            <label for="type2">Мотель</label>
+            <input type="radio" id="type3">
+            <label for="type3">Апартаменты</label>
+          </div>
+
+          <div class="hotels-form-col">
+            <h3 class="hotels-form-title">Стоимость, ₽:</h3>
+            <div class="hotels-form-number">
+              <input type="number" value="0">
+              <span clas="price-range">от</span>
+            </div>
+            <div class="hotels-form-number">
+              <input type="number" value="9000">
+              <span clas="price-range">до</span>
+            </div>
+            <input type="range" id="points" name="points" min="0" max="10">
+          </div>
+
+          <div class="hotels-form-col">
+            <input type="submit" value="Применить" class="hotels-form-sub">
+            <input type="submit" value="Сбросить" class="hotels-form-clear">
+          </div>
+
+        </form>
+
+      </div>
+    </section>
+
+
+
   </body>
 
 </html>
