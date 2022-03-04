@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -26,8 +27,10 @@
     <main>
       <section class="main">
         <div class="main-name"><img src="images/welcome.svg" alt="Добро пожаловать в Седону"></div>
-        <h1 class="main-header">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
-        <p class="main-desc">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+        <div class="main-descr">
+          <h1 class="main-header">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+          <p class="main-text">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+        </div>
       </section>
 
       <section class="features">
@@ -46,7 +49,7 @@
           <h4 class="features-subtitle">Жильё</h4>
           <p class="features-descr">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
         </div>
-        <div class="features-life features-block">
+        <div class="features-food features-block">
           <img src="images/features/icon-2.svg" width="72" height="75"  class="features-image" alt="Иконка еды">
           <h4 class="features-subtitle">Еда</h4>
           <p class="features-descr">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
@@ -87,15 +90,20 @@
       <section class="search">
         <h2 class="search-title">Заинтересовались?</h2>
         <p class="search-descr">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <div class="search-button">
+          <a href="catalog.html">ПОИСК ГОСТИНИЦЫ В седоне</a>
+        </div>
       </section>
 
       <section class="mailing">
         <h2 class="mailing-title">Подпишитесь на рассылку</h2>
         <p class="mailing-descr">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <div class="mailing-form">
-          <input id="email" type="mail" placeholder="Ваш e-mail">
-          <label for="email"></label>
-          <button type="submit">Подписаться</button>
+          <form class="mailing-form">
+            <input id="email" type="mail" placeholder="Ваш e-mail">
+            <label for="email"></label>
+            <button type="submit">Подписаться</button>
+          </form>
         </div>
       </section>
 
