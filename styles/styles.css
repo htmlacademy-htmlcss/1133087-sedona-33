@@ -141,6 +141,7 @@ body {
   font-family: "PT Sans";
   line-height: 26px;
   opacity: 0.6;
+  border-radius: 10px 0px 0px 10px;
 }
 
 .mailing-form button {
@@ -191,4 +192,121 @@ body {
 .hotels-form label {
   line-height: 23px;
   font-weight: 400;
+}
+
+.hotels-form-sub {
+  background: #83B3D3;
+  border-radius: 4px;
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  color: #FFFFFF;
+}
+
+.hotels-form-clear {
+  line-height: 23px;
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+}
+
+.result-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  text-transform: uppercase;
+}
+
+.result-select {
+  font-family: "PT Sans";
+  line-height: 23px;
+  color: #333333;
+}
+
+.result-hotel-name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.result-type, .result-price {
+  line-height: 23px;
+  color: #333333;
+}
+
+.result-info button {
+  border-radius: 4px;
+  border: none;
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.result-more {
+  background: #756257;
+}
+
+.result-fav { 
+  background: #83B3D3;
+}
+
+.result-fav-ready {
+  background: #7DB54F;
+}
+
+.result-rating {
+  background: #F2F2F2;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.result-download {
+  font-family: "PT Sans";
+  background: #83B3D3;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.result-pages-number li {
+  background: #83B3D3;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.result-pages-number a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.result-count-text,
+.result-count-choice option {
+  font-family: "PT Sans";
+  line-height: 23px;
+  color: #333333;
+}
+
+.catalog-mailing {
+  background-image: none;
+  background-color: white
+}
+
+.catalog-mailing .mailing-form input {
+  background: #F2F2F2;
+  border-radius: 10px 0px 0px 10px;
+  border: none
 }
