@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
     <base href="https://htmlacademy-htmlcss.github.io/1133087-sedona-33/3/">
 </head>
 
@@ -29,7 +30,7 @@
       <h2 class="hotels-title">Гостиницы Седоны</h2>
       <div class="hotels-nav">
         <ul>
-          <li><a href="index.html"><img src="" alt="Иконка На главную"></a></li>
+          <li><a href="index.html"><img src="images/catalog-page/home.svg" width="12" height="12" alt="Иконка На главную"></a></li>
           <li><a href="catalog.html">Гостиницы</a></li>
         </ul>
       </div>
@@ -83,7 +84,7 @@
       <div class="result-nav">
         <h2 class="result-title">Найдено гостиниц: 38</h2>
         <div class="result-choise">
-          <select id="type" name="result-type">
+          <select class="result-select" id="type" name="result-type">
             <option value="cheap">Сначала дешёвые</option>
             <option value="middle">Сначала средние</option>
             <option value="expensive">Сначала дорогие</option>
@@ -166,7 +167,7 @@
       <button class="result-download">Загрузить ещё</button>
       <div class="result-pages">
         <nav class="result-pages-nav">
-          <ul>
+          <ul class="result-pages-number">
             <li><a href="#">1</a></li>
             <li><a href="#">2</a></li>
             <li><a href="#">3</a></li>
@@ -178,7 +179,7 @@
       </div>
       <div class="result-count">
         <label for="result-count-choice" class="result-count-text">Гостиниц на странице:</label>
-        <select id="count" name="result-count-choice">
+        <select id="count" name="result-count-choice" class="result-count-choice">
             <option value="4">4</option>
             <option value="8">8</option>
             <option value="15">15</option>
@@ -188,7 +189,7 @@
       </div>
     </section>
 
-    <section class="mailing">
+    <section class="mailing catalog-mailing">
         <h2 class="mailing-title">Подпишитесь на рассылку</h2>
         <p class="mailing-descr">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <div class="mailing-form">
